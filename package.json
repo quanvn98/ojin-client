@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "ajv": "^8.10.0",
+    "nth-check": "^2.0.1",
     "typescript": "^4.6.2"
   }
 }
