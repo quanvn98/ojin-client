@@ -2,6 +2,7 @@ import React from 'react'
 import logo from './logo.svg'
 import { Counter } from './features/counter/Counter'
 import './App.css'
+import { Button } from 'antd';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             React Redux
           </a>
         </span>
+        <Button type="primary">Ant Button</Button>
       </header>
     </div>
   )
