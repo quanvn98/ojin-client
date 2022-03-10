@@ -1,2 +1,2 @@
-# ojin-server
-Server-side for OJIN project
+# ojin-client
+Client-side for OJIN project
