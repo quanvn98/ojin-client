@@ -1,13 +1,18 @@
 import React from 'react'
-import logo from './logo.svg'
-import { Counter } from './features/counter/Counter'
+// import logo from './logo.svg'
+// import { Counter } from './features/counter/Counter'
 import './App.css'
-import { Button } from 'antd';
+// import { Button } from 'antd'
+import { Outlet } from 'react-router-dom'
+import { Layout } from 'antd'
+import { MyHeader } from './features/header/Header'
+import { MyFooter } from './features/footer/Footer'
+const { Header, Content, Footer } = Layout
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
@@ -32,7 +37,20 @@ function App() {
           </a>
         </span>
         <Button type="primary">Ant Button</Button>
-      </header>
+      </header> */}
+      <Layout className="layout" style={{ background: '#fff' }}>
+        <Header style={{ background: '#fff', display: 'flex', alignItems: 'center' }}>
+          <MyHeader />
+        </Header>
+        <Content style={{ padding: '0 50px' }}>
+          <div className="site-layout-content">
+            <Outlet />
+          </div>
+        </Content>
+        <Footer style={{ textAlign: 'center', background: '#fff' }}>
+          <MyFooter />
+        </Footer>
+      </Layout>
     </div>
   )
 }

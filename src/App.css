@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -39,3 +39,16 @@
 }
 
 @import '~antd/dist/antd.css';
+
+.App .site-layout-content {
+  min-height: calc(100vh - 64px - 70px);
+  background: #fff;
+}
+
+.App .logo {
+  flex-shrink: 0;
+  width: 120px;
+  height: 50px;
+  margin-right: 24px;
+  object-fit: contain;
+}
