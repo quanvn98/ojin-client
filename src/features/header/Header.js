@@ -30,7 +30,7 @@ export function MyHeader() {
   })
 
   return (
-    <>
+    <div style={{ display: 'flex', alignItems: 'center' }} className="container">
       <Link to={'/'} style={{ display: 'flex' }}>
         <img src={logo} alt="logo" className="logo" />
       </Link>
@@ -42,6 +42,6 @@ export function MyHeader() {
           Quân <DownOutlined />
         </Button>
       </Dropdown>
-    </>
+    </div>
   )
 }

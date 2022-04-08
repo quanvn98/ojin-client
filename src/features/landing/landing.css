@@ -1,0 +1,38 @@
+.landing-section {
+  margin-bottom: 50px;
+}
+
+.landing-section .section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.landing-section .section-image {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  height: 0;
+  padding-bottom: 34%;
+}
+
+.landing-section .section-image img {
+  width: 100%;
+}
+
+.section-item {
+  display: flex;
+  align-items: center;
+}
+
+.section-item .section-item-image {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.section-item .section-item-image img {
+  width: 100px;
+}

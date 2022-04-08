@@ -39,10 +39,10 @@ function App() {
         <Button type="primary">Ant Button</Button>
       </header> */}
       <Layout className="layout" style={{ background: '#fff' }}>
-        <Header style={{ background: '#fff', display: 'flex', alignItems: 'center' }}>
+        <Header style={{ background: '#fff', padding: 0 }}>
           <MyHeader />
         </Header>
-        <Content style={{ padding: '0 50px' }}>
+        <Content>
           <div className="site-layout-content">
             <Outlet />
           </div>
