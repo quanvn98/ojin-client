@@ -14,7 +14,6 @@
   overflow: hidden;
   margin-bottom: 1.5rem;
   height: 0;
-  padding-bottom: 34%;
 }
 
 .landing-section .section-image img {
@@ -29,7 +28,7 @@
 .section-item .section-item-image {
   border-radius: 10px;
   overflow: hidden;
-  margin-right: 8px;
+  margin-right: 0.5rem;
   flex-shrink: 0;
 }
 
