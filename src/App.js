@@ -47,7 +47,7 @@ function App() {
             <Outlet />
           </div>
         </Content>
-        <Footer style={{ textAlign: 'center', background: '#fff' }}>
+        <Footer style={{ padding: 0, backgroundColor: '#000', color: '#fff' }}>
           <MyFooter />
         </Footer>
       </Layout>

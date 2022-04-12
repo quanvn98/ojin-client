@@ -1,0 +1,17 @@
+.footer-container h1,
+.footer-container h2,
+.footer-container h3,
+.footer-container h4,
+.footer-container h5,
+.footer-container h6,
+.footer-container span {
+  color: #fff;
+}
+
+.footer-container span.ant-typography-secondary {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.footer-container .ant-divider {
+  border-color: rgba(255, 255, 255, 0.12);
+}
