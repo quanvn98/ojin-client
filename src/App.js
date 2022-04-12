@@ -7,6 +7,7 @@ import { Outlet } from 'react-router-dom'
 import { Layout } from 'antd'
 import { MyHeader } from './features/header/Header'
 import { MyFooter } from './features/footer/Footer'
+import { Fixed } from './features/fixed/Fixed'
 const { Header, Content, Footer } = Layout
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
         <Footer style={{ padding: 0, backgroundColor: '#000', color: '#fff' }}>
           <MyFooter />
         </Footer>
+        <Fixed />
       </Layout>
     </div>
   )

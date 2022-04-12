@@ -41,7 +41,7 @@
 @import '~antd/dist/antd.css';
 
 .App .site-layout-content {
-  min-height: calc(100vh - 64px - 70px);
+  min-height: calc(100vh - 64px - 470px);
   background: #fff;
 }
 
@@ -634,4 +634,21 @@
 
 .ps-5 {
   padding-left: 3rem !important;
+}
+
+/* Shadow */
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.shadow-none {
+  box-shadow: none !important;
 }

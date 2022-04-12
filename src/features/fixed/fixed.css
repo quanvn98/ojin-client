@@ -1,0 +1,14 @@
+.fixed-container {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+
+.fixed-button {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
